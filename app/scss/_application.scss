@@ -1,0 +1,160 @@
+.application{
+  width: 192rem;
+
+  &__inner{
+    width: 160rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 18rem;
+    padding-top: 10rem;
+
+    @include respond(phone){
+      display: block;
+      width: 60rem;
+      margin: 0 auto;
+      margin-bottom: 10rem;
+    }
+
+    @include respond(port){
+      display: block;
+      width: 90rem;
+      margin: 0 auto;
+      margin-bottom: 10rem;
+    }
+
+    @include respond(land){
+      width: 120rem;
+      margin: 0 auto;
+      margin-bottom: 10rem;
+    }
+  }
+
+  &_imgBox{
+    display: block;
+    width: 55rem;
+    position: relative;
+  }
+
+  &__img{
+    display: block;
+
+    &_1{
+      width: 550px;
+      height: 650px;
+    }
+
+    &_2{
+      width: 260px;
+      height: 530px;
+      position: absolute;
+      top: 3rem;
+      left: 53rem;
+
+      @include respond(phone){
+        left: 90rem;
+      }
+
+      @include respond(port){
+        left: 73rem;
+      }
+
+      @include respond(land){
+
+      }
+    }
+
+    &_3{
+      width: 233.1px;
+      height: 462.14px;
+      position: absolute;
+      top: 6.8rem;
+      left: 54.4rem;
+
+      @include respond(phone){
+        left: 91.7rem;
+      }
+
+      @include respond(port){
+        left: 74.7rem;
+      }
+
+      @include respond(land){
+
+      }
+    }
+  }
+
+  &__box{
+    display: block;
+    width: 49rem;
+    text-align: left;
+  }
+
+  &__title{
+    display: block;
+    margin-bottom: 3rem;
+
+    font-family: Open "Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 54px;
+    letter-spacing: 0.045em;
+    color: #000000;
+  }
+
+  &__text{
+    display: block;
+    margin-bottom: 5rem;
+
+    font-family: Open "Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+    color: #000000;
+  }
+
+  &__paragraph{
+    display: block;
+    margin-bottom: 5rem;
+  }
+
+  &__btn{
+    display: block;
+    width: 267.5px;
+    padding-top: 10px;
+    padding-bottom: 11px;
+    background: #000000;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+    text-decoration: none;
+    text-align: center;
+
+    font-family: Open "Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+
+    @include respond(phone){
+      margin: 0 auto;
+      margin-bottom: 10rem;
+    }
+
+    @include respond(port){
+      margin: 0 auto;
+      margin-bottom: 10rem;
+    }
+
+    @include respond(land){
+      margin: 0 auto;
+      margin-bottom: 10rem;
+    }
+  }
+}

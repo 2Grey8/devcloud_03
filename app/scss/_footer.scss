@@ -1,0 +1,169 @@
+.footer{
+  width: 192rem;
+
+  &__inner{
+    width: 140rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 6.5rem;
+    padding-bottom: 9rem;
+  }
+
+  &__box{
+    display: block;
+    width: 32.5rem;
+    text-align: left;
+  }
+
+  &__logo{
+    display: block;
+    width: 32rem;
+    height: 8rem;
+  }
+
+  &__text{
+    display: block;
+    width: 25rem;
+    margin-left: 7rem;
+
+    font-family: Open "Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 171.18%;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #000000;
+  }
+
+  &__navigation{
+    width: 70rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__list{
+    display: block;
+    width: 25rem;
+    text-align: left;
+    list-style: none;
+
+    &_1{
+      margin-right: 10rem;
+      position: relative;
+    }
+
+    &_2{
+      margin-right: 10rem;
+    }
+
+    a{
+      color: #000;
+      text-decoration: none;
+    }
+  }
+
+  &__item{
+    display: block;
+    font-family: Open "Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 171.18%;
+    letter-spacing: 0.065em;
+    text-transform: uppercase;
+    color: #000000;
+
+    &_1{
+      position: relative;
+
+      &::before{
+        content: "";
+        display: block;
+        width: 27px;
+        height: 28.16px;
+        background-repeat: repeat;
+        background-size: cover;
+        background-image: url(../img/icon8.png);
+        position: absolute;
+        top: 2rem;
+        left: -4.5rem;
+      }
+    }
+
+    &_2{
+      margin-bottom: .3rem;
+    }
+
+    &_1,
+    &_2{
+      margin-left: 3rem;
+    }
+
+    &_3{
+      margin-left: 2rem;
+      margin-bottom: 1.2rem;
+      position: relative;
+
+      &::before{
+        content: "";
+        display: block;
+        width: 26px;
+        height: 22.94px;
+        background-repeat: repeat;
+        background-size: cover;
+        background-image: url(../img/icon10.png);
+        position: absolute;
+        top: .3rem;
+        left: -3.5rem;
+      }
+    }
+
+    &_4{
+      display: block;
+      margin-right: 6rem;
+      margin-left: 2rem;
+      position: relative;
+
+      &::before{
+        content: "";
+        display: block;
+        width: 24px;
+        height: 24px;
+        background-repeat: repeat;
+        background-size: cover;
+        background-image: url(../img/icon11.png);
+        position: absolute;
+        top: .3rem;
+        left: -3.5rem;
+      }
+    }
+
+    &_5{
+      display: block;
+      position: absolute;
+      top: 10.6rem;
+      left: 15rem;
+
+      &::before{
+        content: "";
+        display: block;
+        width: 24px;
+        height: 24px;
+        background-repeat: repeat;
+        background-size: cover;
+        background-image: url(../img/icon9.png);
+        position: absolute;
+        top: .3rem;
+        left: -3.5rem;
+      }
+    }
+
+    &_4,
+    &_5{
+      font-size: 13px;
+      letter-spacing: 0.015em;
+    }
+  }
+}
